@@ -1,0 +1,19 @@
+{
+    "translation": {
+      "skip":"छोड़ें",
+      "appName": "कुंडली",
+      "cloud": "क्लाउड",
+      "save-kundli-on-cloud": "कुंडली को क्लाउड पर सहेजें,",
+      "access-from-any-device": "किसी भी डिवाइस से चलाये",
+      "charts-and-notes-on-cloud-multi-device-access": "क्लाउड पर कुंडली व नोट्स, कई डिवाइस से उपयोग",
+      "welcome-back": "आपका स्वागत है",
+      "facebook": "फेसबुक",
+      "google": "गूगल",
+      "email": "ईमेल",
+      "already-have-an-account": "पहले से ही एक खाता है?",
+      "signin": "साइन इन करें",
+      "signup": "साइन अप करें",
+      "by-creating-an-account-you-areagreeing-to-our": "आगे बढ़ने का मतलब, आप हमारे उपयोग की शर्तों से सहमत हैं",
+      "terms-of-use": "Terms of Use"
+    }
+}

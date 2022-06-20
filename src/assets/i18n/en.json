@@ -1,0 +1,20 @@
+{
+    "translation": {
+      "skip":"Skip",
+      "appName": "KundliKart",
+      "cloud": "Cloud",
+      "save-kundli-on-cloud": "Save kundli on cloud",
+      "access-from-any-device": "access from any device",
+      "charts-and-notes-on-cloud-multi-device-access": "Charts & notes on cloud Multi-device access",
+      "welcome-back": "Welcome Back",
+      "facebook": "Facebook",
+      "google": "Google",
+      "email": "Email",
+      "already-have-an-account": "Already have an account?",
+      "dont-have-an-account": "Don't have an account?",
+      "signin": "Sign in",
+      "signup": "Sign up",
+      "by-creating-an-account-you-areagreeing-to-our": "By creating an account, you are agreeing to our",
+      "terms-of-use": "Terms of Use"
+    }
+}
