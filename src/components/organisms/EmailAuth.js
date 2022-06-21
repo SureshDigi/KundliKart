@@ -36,7 +36,11 @@ const EmailAuth = () => {
               iconName={lockIcon}
               secureTextEntry={value ? false : true}
             />
-            <CheckBox onValueChange={() => toggleValue()} value={value} />
+            <CheckBox
+              label={'Change Password'}
+              onValueChange={() => toggleValue()}
+              value={value}
+            />
           </View>
           <Button
             onPress={() => handleSubmit()}

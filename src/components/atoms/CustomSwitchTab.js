@@ -40,6 +40,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-evenly',
     borderWidth: 1,
     borderColor: primary,
+    backgroundColor: 'red',
+    width: 'auto',
   },
   tabOption: {
     flex: 1,

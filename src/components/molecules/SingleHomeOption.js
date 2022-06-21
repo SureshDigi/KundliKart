@@ -12,7 +12,7 @@ const SingleHomeOption = ({item}) => {
   const navigation = useNavigation();
   return (
     <TouchableOpacity
-      onPress={() => navigation.navigate('Kundli')}
+      onPress={() => navigation.navigate(item.onPress)}
       style={styles.optionContainer}>
       <HomeOptionIcon imgSrc={item.icon} />
       <Text style={styles.optionName}>{item.name}</Text>

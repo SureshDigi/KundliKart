@@ -1,17 +1,16 @@
 import {FlatList} from 'react-native';
 import React from 'react';
 
-import {HomeScreenOptionsData} from '../../constants/HomeScreenOptionsData';
 import SingleHomeOption from '../molecules/SingleHomeOption';
 
 const renderSingleHomeOption = ({item}) => {
   return <SingleHomeOption item={item} />;
 };
 
-const HomeOptionsList = () => {
+const OptionsList = ({data}) => {
   return (
     <FlatList
-      data={HomeScreenOptionsData}
+      data={data}
       keyExtractor={item => item.id.toString()}
       renderItem={renderSingleHomeOption}
       numColumns={3}
@@ -19,4 +18,4 @@ const HomeOptionsList = () => {
   );
 };
 
-export default HomeOptionsList;
+export default OptionsList;

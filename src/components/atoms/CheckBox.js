@@ -3,12 +3,11 @@ import {StyleSheet} from 'react-native';
 import {Checkbox} from 'react-native-ui-lib';
 
 import {secondary} from '../../styles/colors';
-import {TOP_3} from '../../utils/spacing';
 
-const CheckBox = ({onValueChange, value}) => {
+const CheckBox = ({onValueChange, value, label}) => {
   return (
     <Checkbox
-      label="Show Password"
+      label={label}
       value={value}
       containerStyle={styles.checkBoxContaner}
       color={secondary}
@@ -20,7 +19,7 @@ const CheckBox = ({onValueChange, value}) => {
 
 const styles = StyleSheet.create({
   checkBoxContaner: {
-    marginTop: TOP_3,
+    // marginTop: TOP_3,
   },
 });
 

@@ -1,12 +1,13 @@
 import React from 'react';
 
-import HomeOptionsList from '../../components/organisms/HomeOptionsList';
+import OptionsList from '../../components/organisms/HomeOptionsList';
 import Container from '../../layouts/Container';
+import {HomeScreenOptionsData} from '../../constants/HomeScreenOptionsData';
 
 const Home = () => {
   return (
     <Container>
-      <HomeOptionsList />
+      <OptionsList data={HomeScreenOptionsData} />
     </Container>
   );
 };
